@@ -3,6 +3,8 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Escopo from './componentes/Escopo'
+import EscopoReduz from './componentes/EscopoReduz'
+
 
 function App() {
 
@@ -10,7 +12,8 @@ function App() {
   return (
     <>
       <Escopo/>
-      <Escopo/>
+     
+      <EscopoReduz/>
     </>
   )
 }

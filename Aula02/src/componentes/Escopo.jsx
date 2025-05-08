@@ -3,7 +3,7 @@ function Escopo (){
     return (
         <>
         <div>
-            <h2>Cansada</h2>
+            <h2>Cansada da vida</h2>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Error delectus suscipit officia quisquam sint! Voluptatum, veritatis. 
