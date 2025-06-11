@@ -4,6 +4,9 @@ import SayMyName from './components/SayMyName.jsx'
 import PessoaProps from './components/PessoaProps.jsx'
 import Evento from './components/Evento.jsx'
 import Contador from './components/ContadorSimples.jsx'
+import Tarefa from './components/Tarefa.jsx'
+import Dashboard from './components/Dashboard.jsx'
+
 
 function App() {
 
@@ -46,6 +49,14 @@ function App() {
     <Evento/>
 
     <Contador/>
+
+    <Tarefa/>
+
+    <Dashboard>
+      <Tarefa titulo="Estudar React" />
+      <Tarefa titulo="Praticar JavaScript" />
+      <Tarefa titulo="Fazer exercícios de lógica" />
+    </Dashboard>
 
 
     
