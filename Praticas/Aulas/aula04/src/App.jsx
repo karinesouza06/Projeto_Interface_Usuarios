@@ -3,6 +3,7 @@ import './App.css'
 import FirstForm from './components/FirstForm'
 import FormState from './components/FormState'
 import FormSelect from './components/FormSelect'
+import PrimeiroForm from './components/PrimeiroForm'
 
 function App() {
  
@@ -10,11 +11,8 @@ function App() {
   return (
   <div className="App">
     <h1>Trabalhando com Formulários</h1>
-      <FirstForm/>
-      <br />
-      <FormState/>
-      <br />
-      <FormSelect/>
+      
+      <PrimeiroForm/>
 
   </div>
   )
