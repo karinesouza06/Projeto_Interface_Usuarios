@@ -7,8 +7,7 @@ import { useState } from 'react';
     
 
     //função que irá alternar a cor dos botões 
-    function CorButton(cor){
-        setContador(cor)
+    function CorButton(){
         //se contador for maior que 10, aternará a cor do botão para verde.
         if (contador > 10){
             document.getElementsByClassName('button_incremento')[0].style.backgroundColor = 'green';
@@ -28,7 +27,7 @@ import { useState } from 'react';
                 {/*Quando o botão for acionado irá disparar um evento de click. 
                 Esse evento chama a função 'setContador' e acrescenta + 1 ao valor contido na variável contador. 
                 A class será usada para a parte condicional.*/}
-                <button className='button_incremento' onClick={() => {setContador(contador + 1)}}  >
+                <button className='button_incremento' onClick={() => setContador(contador + 1)}>
                     Adicione 1
                 </button> 
             </div>
