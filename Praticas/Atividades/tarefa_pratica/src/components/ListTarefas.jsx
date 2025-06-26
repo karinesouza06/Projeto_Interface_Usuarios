@@ -33,8 +33,13 @@ function ListTarefas() {
             </form>
 
             <ul>
-                {listas.map((item)=> 
-                <li>{item}</li>)}
+                {
+                    listas.map((item)=> 
+                    <li>
+                        {item} 
+                        <button>Clique</button>
+                    </li>
+                )}
             </ul>
 
             <button onClick={handleClear}>Resetar</button>
