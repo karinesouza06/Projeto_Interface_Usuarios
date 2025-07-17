@@ -1,0 +1,27 @@
+.table-container1 {
+    border: 2px solid red;
+    margin: 10px;
+    padding: 10px;
+}
+
+.table-container2 {
+    border: 2px solid rgb(44, 11, 228);
+    margin: 10px;
+    padding: 10px;
+}
+
+.table-container3 {
+    border: 2px solid rgb(14, 207, 40);
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    margin: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
